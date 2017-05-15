@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "265851462677",
+    "firebase_url": "https://goonj-bad32.firebaseio.com",
+    "project_id": "goonj-bad32",
+    "storage_bucket": "goonj-bad32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265851462677:android:eb3f05408a843d0a",
+        "android_client_info": {
+          "package_name": "com.boombar.drjoshi.fragment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265851462677-dplttl4e6pu4s2qcs9h3gin361gves3p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boombar.drjoshi.fragment",
+            "certificate_hash": "c037d5e0ebf2ed1b735074aed20be485cd4f4e28"
+          }
+        },
+        {
+          "client_id": "265851462677-im8m1j8albmmb6fkurhq4tr3tiq8hidb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7GfOPish6gKuuKRR-eu9toq7gsZ4ce4s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265851462677-im8m1j8albmmb6fkurhq4tr3tiq8hidb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

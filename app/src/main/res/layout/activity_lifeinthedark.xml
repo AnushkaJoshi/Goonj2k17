@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photopic"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.boombar.drjoshi.fragment.Photograph.Lifeinthedark">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="Life in the dark/ Silhouette"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#ffff"
+                android:background="#7d00ff6a"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="Rules and Guidelines"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#ffff"
+                android:background="#7300ffea"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="1. Each team need to submit single pic for the event.\n
+2. Pic should be submitted latest by April 10th, 2017 – 2pm.\n
+3. Pic should be clicked after March 25th, 2017.\n
+4. Editing is allowed."
+                android:textSize="16dp"
+                android:typeface="monospace"
+                android:textColor="#fff"
+                android:gravity="center"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="Points in GOONJ:"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#ffff"
+                android:background="#8df99900"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="
+1. 50\n
+2. 30\n
+3. 20"                android:textSize="16dp"
+                android:typeface="monospace"
+                android:textColor="#fff"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

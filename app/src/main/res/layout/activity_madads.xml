@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@drawable/harrypotter"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.boombar.drjoshi.fragment.Dramatics.Madads">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="Mad –Ads"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#ffff"
+                android:background="#7d00ff6a"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="Rules and Guidelines"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#ffff"
+                android:background="#7300ffea"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="1. Topic will be given an hour earlier before the event.\n
+2. Numbers of participants are limited to 4-6.\n
+3. Time limit for performance is limited to 90-120 seconds.\n
+4. Props should be arranged by the team themselves..\n
+Criteria of judging:\n
+1. Sense of humour.\n
+2. Usage of props.\n
+3. Acting\n
+4. Clarity of ideas"
+                android:textSize="16dp"
+                android:typeface="monospace"
+                android:textColor="#fff"
+                android:gravity="center"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="Points in GOONJ:"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#ffff"
+                android:background="#8df99900"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="
+1. 20\n
+2. 15\n
+3. 10"
+                android:textSize="16dp"
+                android:typeface="monospace"
+                android:textColor="#fff"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

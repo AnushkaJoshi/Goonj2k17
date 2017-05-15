@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/miss"
+    tools:context="com.boombar.drjoshi.fragment.MissGOONJ.Missgoonj">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="Collage"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#ffff"
+                android:background="#7d00ff6a"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="Rules and Guidelines"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#ffff"
+                android:background="#7300ffea"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="1. Each team have to send 2 participants (1B+1G) for this event.\n
+2. Participants have to fill Performa which will be available at Student Committee office.\n
+3. Intro of each participant of up to 1:30 min.\n
+4. Performance per participant to be of 3-4 min.\n
+5. SRT would be given on spot and 10 secs for thinking and 1min to answer.\n
+6. Cross questioning on intro would be done by judges.\n
+7. Elimination:-\n
+(i). After first round 2 boys and 2 girls will be eliminated.\n
+(ii). After second round 1 boy and 1 girl will be eliminated."
+                android:textSize="16dp"
+                android:typeface="monospace"
+                android:textColor="#000"
+                android:gravity="center"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="Points in GOONJ:"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#ffff"
+                android:background="#8df99900"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="
+1. 150\n
+2. 125\n
+3. 100"                android:textSize="16dp"
+                android:typeface="monospace"
+                android:textColor="#000"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

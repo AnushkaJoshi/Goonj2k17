@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Goonj 2k17</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_openscreen">Openscreen</string>
+    <string name="title_activity_penscroolingactivity"></string>
+    <string name="title_activity_contacts"></string>
+    <string name="title_activity_studentcell"></string>
+    <string name="title_activity_teachers"></string>
+    <string name="title_activity_dayandduration">Dayandduration</string>
+    <string name="title_activity_dramatics">Dramatics</string>
+    <string name="title_activity_music">Music</string>
+    <string name="title_activity_dance">Dance</string>
+    <string name="title_activity_missgoonj">Missgoonj</string>
+    <string name="title_activity_score">Score</string>
+
+</resources>

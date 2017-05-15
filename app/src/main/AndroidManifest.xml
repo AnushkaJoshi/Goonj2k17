@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.boombar.drjoshi.fragment">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="Goonj 2k17"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Mainfile.penscroolingactivity"
+            android:label="@string/title_activity_penscroolingactivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Contacts.Contacts"
+            android:label="@string/title_activity_contacts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Contacts.Studentcell.Studentcell"
+            android:label="Let me know you"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Contacts.Teachers.Teachers"
+            android:label="@string/title_activity_teachers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Dramatics.Dramatics"
+            android:label="Bring the star out of u"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Dramatics.Hallabol" />
+        <activity android:name=".Dramatics.Gmovie" />
+        <activity android:name=".Dramatics.Dramatheatre" />
+        <activity
+            android:name=".Score.Score"
+            android:label="@string/title_activity_score"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Music.Music" />
+        <activity
+            android:name=".Dance.Dance"
+            android:label="Show your moves" />
+        <activity
+            android:name=".Art.Art"
+            android:label="Colour up the world" />
+        <activity android:name=".Dance.Justdance" />
+        <activity android:name=".Dance.Thumak" />
+        <activity android:name=".Dance.ReverseGear" />
+        <activity android:name=".Dance.Nritya" />
+        <activity android:name=".Dance.Dhamaal" />
+        <activity android:name=".Dance.NachBaliye" />
+        <activity android:name=".Dance.Footloose" />
+        <activity android:name=".Art.Wall" />
+        <activity android:name=".Art.Face" />
+        <activity android:name=".Art.Rangoli" />
+        <activity android:name=".Art.Sketching" />
+        <activity android:name=".Art.Poster" />
+        <activity android:name=".Art.Portrait" />
+        <activity android:name=".Art.TPainting" />
+        <activity android:name=".Art.Collage" />
+        <activity android:name=".Art.Clayart" />
+        <activity android:name=".Art.Tattoomaking" />
+        <activity android:name=".Art.Mehandidesigning" />
+        <activity android:name=".Art.Puppet" />
+        <activity android:name=".Dramatics.Madads" />
+        <activity android:name=".Dramatics.VoiceofSilence" />
+        <activity android:name=".Dramatics.StandUpComedy" />
+        <activity android:name=".Dramatics.DubbingMovie" />
+        <activity
+            android:name=".Photograph.Photo"
+            android:label="present your shots" />
+        <activity android:name=".Photograph.Picofday" />
+        <activity android:name=".Photograph.ModelPhotography" />
+        <activity android:name=".Photograph.Lifeinthedark" />
+        <activity android:name=".Music.LokGeet" />
+        <activity android:name=".Music.Rock" />
+        <activity android:name=".Music.Tarang" />
+        <activity android:name=".Music.Selfcomposed" />
+        <activity android:name=".Music.DuetSong" />
+        <activity android:name=".Music.HindiSolo" />
+        <activity android:name=".Music.EnglishSolo" />
+        <activity
+            android:name=".Litrary.Litrary"
+            android:label="Light up the wisdom" />
+        <activity android:name=".Litrary.Debate" />
+        <activity
+            android:name=".MissGOONJ.Missgoonj"
+            android:label="The most weighted event" />
+        <activity android:name=".Days.Day1" />
+        <activity android:name=".Days.Day2" />
+        <activity android:name=".Days.Day3" />
+        <activity android:name=".Firebase.Writeinto" />
+        <activity
+            android:name=".Firebase.Read"
+            android:label="Scores Transparency" />
+        <activity android:name=".Firebase.Reah" />
+        <activity android:name=".Litrary.Extempore" />
+        <activity android:name=".Litrary.GroupDiscussion" />
+        <activity android:name=".Litrary.JAM" />
+        <activity android:name=".Litrary.Poemwriting" />
+        <activity android:name=".Litrary.Elocution" />
+        <activity android:name=".Litrary.Quiz" />
+        <activity android:name=".Litrary.goodword" />
+        <activity android:name=".Litrary.BuisnessPlan" />
+        <activity android:name=".Litrary.Satya" />
+        <activity android:name=".Dress.Dress" />
+        <activity android:name=".Rally.Rally" />
+        <activity android:name=".Contacts.Conveoer" />
+        <activity android:name=".Contacts.GoonjCulturalHead" />
+        <activity android:name=".Contacts.Athco" />
+        <activity android:name=".Contacts.Rampco" />
+        <activity android:name=".Contacts.Softco" />
+        <activity android:name=".Contacts.Apoco" />
+        <activity android:name=".Contacts.Genco" />
+        <activity android:name=".Contacts.Civico" />
+        <activity android:name=".Contacts.Ecrco"></activity>
+    </application>
+
+</manifest>

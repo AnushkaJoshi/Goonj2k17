@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/callcon"
+    android:layout_height="match_parent"
+    tools:context="com.boombar.drjoshi.fragment.Home">
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_marginTop="10dp"
+
+        android:divider="#9c9c9c"
+        android:dividerHeight="0.2dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

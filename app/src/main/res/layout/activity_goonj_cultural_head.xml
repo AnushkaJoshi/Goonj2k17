@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="8dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_gravity="left"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/contactdef"
+            app:civ_border_width="2dp"
+            android:layout_weight="2"
+            app:civ_border_color="#8df99900"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="8">
+            <TextView
+                android:id="@+id/english_action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#666666"
+                android:textSize="16dp"
+                android:text="Dr. Ashish Negi"/>
+            <TextView
+                android:id="@+id/hindi_action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#999999"
+                android:textSize="14dp"
+                android:layout_marginTop="8dp"
+                android:text="Goonj Cultural Head"/>
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/dial"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:civ_border_width="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="bottom"
+            android:src="@drawable/dialcontact"
+            android:layout_weight="1"
+            app:civ_border_color="#bad1104a"/>
+
+    </LinearLayout>
+
+</LinearLayout>

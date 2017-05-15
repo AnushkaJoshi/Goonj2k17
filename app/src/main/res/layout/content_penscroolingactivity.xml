@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Mainfile.penscroolingactivity"
+    tools:showIn="@layout/activity_penscroolingactivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+     android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:text="Event info"
+        android:typeface="monospace"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textStyle="bold"
+
+        android:textColor="#ffff"
+        android:background="#7300ffea"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:text="Event info"
+
+            android:textSize="15dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#ffff"
+            android:background="#7300ffea"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="170dp"
+                android:text="Contact"
+android:typeface="monospace"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+
+android:id="@+id/contact"
+                android:textColor="#ffff"
+                android:background="#7d00ff6a"/>
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="170dp"
+                android:text="HIGH"
+                android:layout_gravity="right"
+                android:textSize="15dp"
+                android:typeface="monospace"
+                android:gravity="center"
+                android:textStyle="bold"
+
+                android:textColor="#ffff"
+                android:background="#7d00ff6a"/>
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="170dp"
+                android:text="DAY AND DURATION"
+                android:typeface="monospace"
+                android:id="@+id/day"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:layout_marginRight="92dp"
+                android:textColor="#ffff"
+                android:background="#7d00ff6a"/>
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="170dp"
+                android:text="SCORE"
+                android:typeface="monospace"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:layout_marginRight="170dp"
+                android:textColor="#ffff"
+                android:background="#7d00ff6a"/>
+        </FrameLayout>
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_gravity="center"
+            android:layout_width="84dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="84dp"
+            android:src="@drawable/mypic"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#8df99900"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ABOUT"
+    android:gravity="center"
+    android:textColor="#fff"/>
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.v4.widget.NestedScrollView>

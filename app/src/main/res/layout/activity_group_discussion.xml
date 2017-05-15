@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/litba"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.boombar.drjoshi.fragment.Litrary.GroupDiscussion">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="Extempore"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#ffff"
+                android:background="#7d00ff6a"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="Rules and Guidelines"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#ffff"
+                android:background="#7300ffea"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="
+1. The topic will be given to the teams, 3 minutes before starting the discussion.\n
+2. The discussion will be done for 15 minutes.\n
+3. The participants will do the discussion in English only.\n
+4. Participants can jot down their points in a sheet allotted to them , which will be submitted to the moderator at the end.\n
+5. The team will consist of a girl and a boy from each branch.\n
+6. The conclusion has to be done within 30 seconds.\n
+7. Use of slangs, pin pointing the other member is strictly prohibited.
+ Judging criteria:-\n
+1. Fluency in English.\n
+2. Content relativity with topic\n
+3. Gestures.\n
+4. Leadership skills."
+                android:textSize="16dp"
+                android:typeface="monospace"
+                android:textColor="#000"
+                android:gravity="center"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="Points in GOONJ:"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#ffff"
+                android:background="#8df99900"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="
+1. 80\n
+2. 60\n
+3. 40"
+                android:textSize="16dp"
+                android:typeface="monospace"
+                android:textColor="#000"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

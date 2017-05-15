@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/harrypotter"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.boombar.drjoshi.fragment.Dramatics.Dramatheatre">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="The Drama Theatre (Play)"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#ffff"
+                android:background="#7d00ff6a"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="Rules and Guidelines"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#ffff"
+                android:background="#7300ffea"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="
+1. Scene change is allowed.\n
+2. 8 to 10 participants are allowed in play.\n
+3. Time duration is limited to 8-10 minutes.\n
+4. Vulgarity is not allowed.\n
+5. Participants can use props if they need.\n
+Criteria of judging:\n
+1. Acting\n
+2. Stage usage\n
+3. Theme/Script\n
+4. Dialogue delivery"
+                android:textSize="16dp"
+                android:typeface="monospace"
+                android:textColor="#fff"
+                android:gravity="center"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="Points in GOONJ:"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#ffff"
+                android:background="#8df99900"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="
+1. 100\n
+2. 75\n
+3. 50"
+                android:textSize="16dp"
+                android:typeface="monospace"
+                android:textColor="#fff"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
